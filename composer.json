@@ -12,16 +12,6 @@
             "email": "3266023724@qq.com"
         }
     ],
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Barryvdh\\Debugbar\\ServiceProvider"
-            ],
-            "aliases": {
-                "Debugbar": "Barryvdh\\Debugbar\\Facade"
-            }
-        }
-    },
 
     "require": {
         "illuminate/support": "8.*"
