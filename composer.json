@@ -1,0 +1,32 @@
+{
+    "name": "steffenkong/json-result",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Steffenkong\\JsonResult\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "SteffenKong",
+            "email": "3266023724@qq.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Barryvdh\\Debugbar\\ServiceProvider"
+            ],
+            "aliases": {
+                "Debugbar": "Barryvdh\\Debugbar\\Facade"
+            }
+        }
+    },
+
+    "require": {
+        "illuminate/support": "8.5.*"
+    },
+    "require-dev": {
+        "illuminate/http": "8.5.*"
+    }
+}
